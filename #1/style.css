@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap);
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #232123;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  box-shadow: 1px 2px 20px 1px rgba(229, 160, 255, 0.2);
+  background: rgb(229,160,255);
+background: -moz-linear-gradient(45deg, rgba(229,160,255,1) 0%, rgba(151,170,254,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(229,160,255,1) 0%, rgba(151,170,254,1) 100%);
+background: linear-gradient(45deg, rgba(229,160,255,1) 0%, rgba(151,170,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e5a0ff",endColorstr="#97aafe",GradientType=1); 
+  font-family: 'Courier Prime', 'Courier', sans-serif;
+  color: #fff;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.number {
+  position: relative;
+  width: 200px;
+  bottom: 55px;
+}
+
+.one-one {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -16px;
+  height: 40px;
+  width: 20px;
+  background: #fff;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.one-two {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  width: 24px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 13px 0
+    rgba(0,0,0,0.2);
+}
+
+.zero-one,
+.zero-two {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 17px;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 24px solid #fff;
+  box-shadow: 0 0 13px 0
+    rgba(0,0,0,0.2);
+}
+.zero-two {
+  z-index: 0;
+  left: 100px;
+ }
+
+.days{
+  position: relative;
+	display: block;
+  font-size: 5rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+	top: 4rem;
+}
+
+.csschallenge {
+  position: relative;
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  top: 55px;
+}
